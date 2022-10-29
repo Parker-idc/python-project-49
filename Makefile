@@ -1,8 +1,8 @@
 install:
 	poetry install
 
-brain-games:
-	poetry run brain-games
+brain-game:
+	poetry run brain-game
 
 publish:
 	poetry publish --dry-run
