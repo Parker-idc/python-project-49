@@ -7,3 +7,6 @@
 
 
 <a href="https://codeclimate.com/github/Parker-idc/python-project-49/maintainability"><img src="https://api.codeclimate.com/v1/badges/22511f05ab462e53be80/maintainability" /></a>
+
+brain-even
+https://asciinema.org/a/Jn77GOikn89xG1Pf6wZJNkCig
