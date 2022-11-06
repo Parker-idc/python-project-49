@@ -1,3 +1,7 @@
+<h1 align="center">Hi there, I'm <a href="https://daniilshat.ru/" target="_blank">Parker</a>
+<img src="https://github.com/blackcater/blackcater/raw/main/images/Hi.gif" height="32"/></h1>
+
+
 ### Hexlet tests and linter status:
 [![Actions Status](https://github.com/Parker-idc/python-project-49/workflows/hexlet-check/badge.svg)](https://github.com/Parker-idc/python-project-49/actions)
 
