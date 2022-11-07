@@ -9,7 +9,7 @@ packages = [
 ]
 
 [tool.poetry.scripts]
-brain-game = "brain_game.scripts.brain_games:main"
+brain-games = "brain_game.scripts.brain_games:main"
 brain-even = "brain_game.scripts.brain_even:main"
 brain-calc = "brain_game.scripts.brain_calc:main"
 brain-gcd = "brain_game.scripts.brain_gcd:main"
