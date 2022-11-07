@@ -2,4 +2,3 @@
 .idea/
 dist
 *__pycache__
-brain_game.__pycache__
