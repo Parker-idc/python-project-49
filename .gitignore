@@ -3,3 +3,4 @@
 dist
 *__pycache__
 __pycache__/
+brain_game/__pycache__
