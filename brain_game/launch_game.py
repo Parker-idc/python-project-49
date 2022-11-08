@@ -2,13 +2,13 @@
 import prompt
 
 
-def launch(game_logic, TITLE):
+def launch(get_game_process, TITLE):
     print("Welcome to the Brain Games!")
     name = prompt.string("May I have your name? ")
     print(f'Hello, {name}')
     print(TITLE)
     for i in range(3):
-        question, answer = game_logic()
+        question, answer = get_game_process()
         print(f'Question: {question}')
         user_answer = input('Your answer: ')
         if user_answer == answer:
