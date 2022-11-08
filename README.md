@@ -21,28 +21,28 @@ ___
 ```
 brain-even
 ```
-![even number](https://user-images.githubusercontent.com/116105601/200495456-be5e74f0-ee51-4c44-9c4f-e1190727b8ee.gif)
+![even](https://user-images.githubusercontent.com/116105601/200516950-94cc9703-ec6a-40c7-9944-0d70484fd41a.gif)
 ___
 ### Calculator
 ```
 brain-calc
 ```
-![calculator](https://user-images.githubusercontent.com/116105601/200501200-935642bd-4332-4e6a-b28a-4260d38d607e.gif)
+![calc](https://user-images.githubusercontent.com/116105601/200517038-9f9aee6a-4e5f-462a-98a2-2f43236e7997.gif)
 ___
 ### Grand Central Dispatch
 ```
 brain-gcd
 ```
-![gcd](https://user-images.githubusercontent.com/116105601/200502250-aea26dcc-1441-4f11-95c4-8479bf68b579.gif)
+![gcd](https://user-images.githubusercontent.com/116105601/200517129-ee4965cd-ed6e-4416-9875-7acdc21315e8.gif)
 ___
 ### Arithmetic progression
 ```
 brain-progression
 ```
-![prog](https://user-images.githubusercontent.com/116105601/200502828-74ef7a3e-a524-4ae5-9366-84aca494c40b.gif)
+![prog](https://user-images.githubusercontent.com/116105601/200517176-6409c81c-7f39-41a9-ae8a-d489822e4e78.gif)
 ___
 ### Prime number
 ```
 brain-prime
 ```
-![prime](https://user-images.githubusercontent.com/116105601/200503229-8cfe6691-5439-40c4-966e-debef8c1d6cb.gif)
+![prime](https://user-images.githubusercontent.com/116105601/200517233-ae939419-43ce-439b-9c7b-72a1df81caaf.gif)
