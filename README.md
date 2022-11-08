@@ -9,7 +9,7 @@
 <a href="https://codeclimate.com/github/Parker-idc/python-project-49/maintainability"><img src="https://api.codeclimate.com/v1/badges/22511f05ab462e53be80/maintainability" /></a>
 
 ## :pushpin: Mind Games project
-___
+
 #### Games :
 + [Even number](https://github.com/Parker-idc/python-project-49/blob/main/brain_game/games/even.py)
 + [Calculator](https://github.com/Parker-idc/python-project-49/blob/main/brain_game/games/calc.py)
