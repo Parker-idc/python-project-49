@@ -23,4 +23,4 @@ def get_game_process():
     answer = progression.pop(miss_num)
     progression.insert(miss_num, '..')
     question = ' '.join(map(str, progression))
-    return question, answer
+    return question, str(answer)
