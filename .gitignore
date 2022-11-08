@@ -2,4 +2,4 @@
 .idea/
 dist
 *__pycache__
-**/__pypache__
+**/__pycache__

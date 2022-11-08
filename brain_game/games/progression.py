@@ -1,9 +1,8 @@
 
 import random
-from brain_game.launch_game import launch
 
 
-title = 'What number is missing in the progression?'
+TITLE = 'What number is missing in the progression?'
 
 
 def get_progression():
@@ -18,14 +17,10 @@ def get_progression():
     return result
 
 
-def game_logic():
+def get_game_process():
     progression = get_progression()
     miss_num = random.randint(1, len(progression) - 1)
     answer = progression.pop(miss_num)
     progression.insert(miss_num, '..')
     question = ' '.join(map(str, progression))
     return question, answer
-
-
-def run_game():
-    launch(game_logic, title)

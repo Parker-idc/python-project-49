@@ -1,19 +1,22 @@
 
 from random import randint
-from brain_game.launch_game import launch
 
 
-title = 'Answer "yes" if the number is even, otherwise answer "no".'
+TITLE = 'Answer "yes" if the number is even, otherwise answer "no".'
 
 
-def game_logic():
+def is_even(number):
+    if number % 2 == 0:
+        return True
+    else:
+        return False
+
+
+def get_game_process():
     question = randint(1, 100)
-    if question % 2 == 0:
+    answer = is_even(question)
+    if answer is True:
         answer = 'yes'
     else:
         answer = 'no'
     return question, answer
-
-
-def run_game():
-    launch(game_logic, title)

@@ -8,18 +8,41 @@
 
 <a href="https://codeclimate.com/github/Parker-idc/python-project-49/maintainability"><img src="https://api.codeclimate.com/v1/badges/22511f05ab462e53be80/maintainability" /></a>
 
-
-### Игра: "Проверка на чётность" - brain-even  
-[Смотреть пример](https://asciinema.org/a/a4s66g1cGqnBsJ9FlEYHytBQs)
-
-### Игра: "Калькулятор" - brain-calc
-[Смотреть пример](https://asciinema.org/a/vOg8pOO5S9kZpWPVqkg5FDJlo)
-
-### Игра "НОД" - brain-gcd
-[Смотреть пример](https://asciinema.org/a/xVHHVKQqvEsbYOmd8biyDVwFt)
-
-### Игра "Арифметическая прогрессия" - brain-progression
-[Смотреть пример](https://asciinema.org/a/1Ve6blbdEuYbqwWwYY9PwW0Lh)
-
-### Игра "Простое ли число?" - brain-prime
-[Смотреть пример](https://asciinema.org/a/6hEiOpAK4nU5a8HBp4D2A1MmN)
+## :pushpin: Mind Games project
+___
+#### Games :
++ [Even number](https://github.com/Parker-idc/python-project-49/blob/main/brain_game/games/even.py)
++ [Calculator](https://github.com/Parker-idc/python-project-49/blob/main/brain_game/games/calc.py)
++ [Grand Central Dispatch](https://github.com/Parker-idc/python-project-49/blob/main/brain_game/games/gcd.py)
++ [Arithmetic progression](https://github.com/Parker-idc/python-project-49/blob/main/brain_game/games/progression.py)
++ [Prime number](https://github.com/Parker-idc/python-project-49/blob/main/brain_game/games/prime.py)
+___
+### Even number
+```
+brain-even
+```
+![even number](https://user-images.githubusercontent.com/116105601/200495456-be5e74f0-ee51-4c44-9c4f-e1190727b8ee.gif)
+___
+### Calculator
+```
+brain-calc
+```
+![calculator](https://user-images.githubusercontent.com/116105601/200501200-935642bd-4332-4e6a-b28a-4260d38d607e.gif)
+___
+### Grand Central Dispatch
+```
+brain-gcd
+```
+![gcd](https://user-images.githubusercontent.com/116105601/200502250-aea26dcc-1441-4f11-95c4-8479bf68b579.gif)
+___
+### Arithmetic progression
+```
+brain-progression
+```
+![prog](https://user-images.githubusercontent.com/116105601/200502828-74ef7a3e-a524-4ae5-9366-84aca494c40b.gif)
+___
+### Prime number
+```
+brain-prime
+```
+![prime](https://user-images.githubusercontent.com/116105601/200503229-8cfe6691-5439-40c4-966e-debef8c1d6cb.gif)

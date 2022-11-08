@@ -1,28 +1,23 @@
 
 import random
-from brain_game.launch_game import launch
 
 
-title = 'What is the result of the expression?'
+TITLE = 'What is the result of the expression?'
 
 
-def task():
-    num1, num2 = random.choices(range(1, 20), k=2)
-    signs = random.choice(['+', '-', '*'])
-    return num1, signs, num2
-
-
-def game_logic():
-    num1, signs, num2 = task()
+def calc_operations(num1, num2, signs):
     if signs == '+':
         answer = num1 + num2
     if signs == '-':
         answer = num1 - num2
     if signs == '*':
         answer = num1 * num2
+    return answer
+
+
+def get_game_process():
+    signs = random.choice(['+', '-', '*'])
+    num1, num2 = random.choices(range(1, 20), k=2)
+    answer = calc_operations(num1, num2, signs)
     question = "{} {} {}".format(num1, signs, num2)
-    return question, answer
-
-
-def run_game():
-    launch(game_logic, title)
+    return question, str(answer)

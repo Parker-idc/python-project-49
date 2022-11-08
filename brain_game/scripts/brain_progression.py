@@ -1,9 +1,10 @@
 
-from brain_game.games.progression import run_game
+from brain_game.launch_game import launch
+from brain_game.games.progression import get_game_process, TITLE
 
 
 def main():
-    run_game()
+    launch(get_game_process, TITLE)
 
 
 if __name__ == '__main__':

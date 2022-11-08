@@ -1,9 +1,8 @@
 
 import random
-from brain_game.launch_game import launch
 
 
-title = 'Find the greatest common divisor of given numbers.'
+TITLE = 'Find the greatest common divisor of given numbers.'
 
 
 def task():
@@ -11,7 +10,7 @@ def task():
     return num1, num2
 
 
-def game_logic():
+def get_game_process():
     num1, num2 = task()
     min_num, max_num = min(num1, num2), max(num1, num2)
     divisor = min_num
@@ -21,7 +20,3 @@ def game_logic():
             answer = divisor
             return question, answer
         divisor -= 1
-
-
-def run_game():
-    launch(game_logic, title)
