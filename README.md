@@ -21,28 +21,28 @@ ___
 ```
 brain-even
 ```
-![even](https://user-images.githubusercontent.com/116105601/200518108-13d75b74-baac-41b4-bf34-a085935d38a3.gif)
+[![asciicast](https://asciinema.org/a/7bqt2o4sSwBW0I3HT4ssxFP1J.svg)](https://asciinema.org/a/7bqt2o4sSwBW0I3HT4ssxFP1J)
 ___
 ### Calculator
 ```
 brain-calc
 ```
-![calc](https://user-images.githubusercontent.com/116105601/200518220-c309bf9d-6b10-4928-8ce2-0730385fd093.gif)
+[![asciicast](https://asciinema.org/a/vOg8pOO5S9kZpWPVqkg5FDJlo.svg)](https://asciinema.org/a/vOg8pOO5S9kZpWPVqkg5FDJlo)
 ___
 ### Grand Central Dispatch
 ```
 brain-gcd
 ```
-![gcd](https://user-images.githubusercontent.com/116105601/200518277-f0aa6efa-0e0b-44e4-83f1-9681b42d5cc5.gif)
+[![asciicast](https://asciinema.org/a/xVHHVKQqvEsbYOmd8biyDVwFt.svg)](https://asciinema.org/a/xVHHVKQqvEsbYOmd8biyDVwFt)
 ___
 ### Arithmetic progression
 ```
 brain-progression
 ```
-![prog](https://user-images.githubusercontent.com/116105601/200518362-27634203-d722-49e2-b529-d86c5f22c5a2.gif)
+[![asciicast](https://asciinema.org/a/1Ve6blbdEuYbqwWwYY9PwW0Lh.svg)](https://asciinema.org/a/1Ve6blbdEuYbqwWwYY9PwW0Lh)
 ___
 ### Prime number
 ```
 brain-prime
 ```
-![prime](https://user-images.githubusercontent.com/116105601/200518496-8e5740d0-1de6-452f-9501-24fc9ccf5a0a.gif)
+[![asciicast](https://asciinema.org/a/6hEiOpAK4nU5a8HBp4D2A1MmN.svg)](https://asciinema.org/a/6hEiOpAK4nU5a8HBp4D2A1MmN)
