@@ -6,13 +6,10 @@ TITLE = 'Answer "yes" if the number is even, otherwise answer "no".'
 
 
 def is_even(number):
-    if number % 2 == 0:
-        return True
-    else:
-        return False
+    return number % 2 == 0
 
 
-def get_game_process():
+def get_game_round():
     question = randint(1, 100)
     answer = is_even(question)
     if answer is True:

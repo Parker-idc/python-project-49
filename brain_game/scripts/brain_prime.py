@@ -1,10 +1,10 @@
 
-from brain_game.launch_game import launch
-from brain_game.games.prime import get_game_process, TITLE
+from brain_game.launch_game import launch_game
+from brain_game.games import prime
 
 
 def main():
-    launch(get_game_process, TITLE)
+    launch_game(prime)
 
 
 if __name__ == '__main__':

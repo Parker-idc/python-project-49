@@ -17,7 +17,7 @@ def get_progression():
     return result
 
 
-def get_game_process():
+def get_game_round():
     progression = get_progression()
     miss_num = random.randint(1, len(progression) - 1)
     answer = progression.pop(miss_num)

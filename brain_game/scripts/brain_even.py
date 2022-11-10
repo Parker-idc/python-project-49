@@ -1,10 +1,10 @@
 
-from brain_game.launch_game import launch
-from brain_game.games.even import get_game_process, TITLE
+from brain_game.launch_game import launch_game
+from brain_game.games import even
 
 
 def main():
-    launch(get_game_process, TITLE)
+    launch_game(even)
 
 
 if __name__ == '__main__':

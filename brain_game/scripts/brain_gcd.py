@@ -1,10 +1,10 @@
 
-from brain_game.launch_game import launch
-from brain_game.games.gcd import get_game_process, TITLE
+from brain_game.launch_game import launch_game
+from brain_game.games import gcd
 
 
 def main():
-    launch(get_game_process, TITLE)
+    launch_game(gcd)
 
 
 if __name__ == '__main__':

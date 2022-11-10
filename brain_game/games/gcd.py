@@ -15,7 +15,7 @@ def get_gcd(num1, num2):
         divisor -= 1
 
 
-def get_game_process():
+def get_game_round():
     num1, num2 = random.choices(range(1, 30), k=2)
     answer = get_gcd(num1, num2)
     question = "{} {}".format(num1, num2)
