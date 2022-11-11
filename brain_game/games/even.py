@@ -11,6 +11,5 @@ def is_even(number):
 
 def get_game_round():
     question = randint(1, 100)
-    answer = is_even(question)
     answer = "yes" if is_even(question) else "no"
     return question, answer
