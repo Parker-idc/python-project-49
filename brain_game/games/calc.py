@@ -1,16 +1,15 @@
-
 import random
 
 
-TITLE = 'What is the result of the expression?'
+GAME_RULE = 'What is the result of the expression?'
 
 
-def calc_operation(num1, num2, signs):
-    if signs == '+':
+def get_calc_operation(num1, num2, sign):
+    if sign == '+':
         answer = num1 + num2
-    if signs == '-':
+    if sign == '-':
         answer = num1 - num2
-    if signs == '*':
+    if sign == '*':
         answer = num1 * num2
     return answer
 
@@ -18,6 +17,6 @@ def calc_operation(num1, num2, signs):
 def get_game_round():
     sign = random.choice(['+', '-', '*'])
     num1, num2 = random.choices(range(1, 20), k=2)
-    answer = calc_operation(num1, num2, sign)
-    question = "{} {} {}".format(num1, sign, num2)
+    answer = get_calc_operation(num1, num2, sign)
+    question = f"{num1} {sign} {num2}"
     return question, str(answer)

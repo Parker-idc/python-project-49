@@ -1,4 +1,3 @@
-
 from brain_game.launch_game import launch_game
 from brain_game.games import calc
 

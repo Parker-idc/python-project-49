@@ -1,6 +1,4 @@
-
 import prompt
-
 
 TRIES_COUNT = 3
 
@@ -9,7 +7,7 @@ def launch_game(game):
     print("Welcome to the Brain Games!")
     name = prompt.string("May I have your name? ")
     print(f'Hello, {name}')
-    print(game.TITLE)
+    print(game.GAME_RULE)
     for i in range(TRIES_COUNT):
         question, answer = game.get_game_round()
         print(f'Question: {question}')

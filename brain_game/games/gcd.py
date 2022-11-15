@@ -1,8 +1,6 @@
-
 import random
 
-
-TITLE = 'Find the greatest common divisor of given numbers.'
+GAME_RULE = 'Find the greatest common divisor of given numbers.'
 
 
 def get_gcd(num1, num2):
@@ -18,5 +16,5 @@ def get_gcd(num1, num2):
 def get_game_round():
     num1, num2 = random.choices(range(1, 30), k=2)
     answer = get_gcd(num1, num2)
-    question = "{} {}".format(num1, num2)
+    question = f"{num1} {num2}"
     return question, str(answer)
