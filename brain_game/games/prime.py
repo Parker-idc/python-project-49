@@ -9,9 +9,10 @@ def is_prime(num):
         if num % index == 0:
             return False
         index += 1
+    return True
 
 
 def get_game_round():
     question = random.randint(2, 30)
-    answer = 'no' if is_prime(question) is False else 'yes'
+    answer = 'yes' if is_prime(question) else 'no'
     return question, answer

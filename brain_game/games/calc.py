@@ -5,6 +5,7 @@ GAME_RULE = 'What is the result of the expression?'
 
 
 def get_calc_operation(num1, num2, sign):
+    answer = None
     if sign == '+':
         answer = num1 + num2
     if sign == '-':

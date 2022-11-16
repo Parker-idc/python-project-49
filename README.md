@@ -5,18 +5,40 @@
 ### Hexlet tests and linter status:
 [![Actions Status](https://github.com/Parker-idc/python-project-49/workflows/hexlet-check/badge.svg)](https://github.com/Parker-idc/python-project-49/actions)
 
-
+### CodeClimate badge :
 <a href="https://codeclimate.com/github/Parker-idc/python-project-49/maintainability"><img src="https://api.codeclimate.com/v1/badges/22511f05ab462e53be80/maintainability" /></a>
 
-## :pushpin: Mind Games project
+# Mind Games project
 
-#### Games :
+### Installation :
+```
+git clone https://github.com/Parker-idc/python-project-49.git
+```
+```
+pip install --user git+https://github.com/Parker-idc/python-project-49.git
+```
+### Used utilities :
+
+Python : 3.10  
+Library prompt: 0.4.1
+___
+
+### Description :
+
+Mind games project is a set of 5 mini-games for logic.
+Each game has 3 rounds, the rules of the games are quite simple.
+A rule of each game is available when it is launched.
+___
+
+### Games :
 + [Even number](https://github.com/Parker-idc/python-project-49/blob/main/brain_game/games/even.py)
 + [Calculator](https://github.com/Parker-idc/python-project-49/blob/main/brain_game/games/calc.py)
 + [Grand Central Dispatch](https://github.com/Parker-idc/python-project-49/blob/main/brain_game/games/gcd.py)
 + [Arithmetic progression](https://github.com/Parker-idc/python-project-49/blob/main/brain_game/games/progression.py)
 + [Prime number](https://github.com/Parker-idc/python-project-49/blob/main/brain_game/games/prime.py)
 ___
+
+### Launch examples and gameplay:
 ### Even number
 ```
 brain-even
