@@ -8,7 +8,7 @@
 ### CodeClimate badge :
 <a href="https://codeclimate.com/github/Parker-idc/python-project-49/maintainability"><img src="https://api.codeclimate.com/v1/badges/22511f05ab462e53be80/maintainability" /></a>
 
-# Mind Games project
+<h1 align="center">Mind Games project</a>
 
 ### Installation :
 ```
