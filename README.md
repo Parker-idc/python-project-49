@@ -17,6 +17,7 @@ git clone https://github.com/Parker-idc/python-project-49.git
 ```
 pip install --user git+https://github.com/Parker-idc/python-project-49.git
 ```
+___
 ### Used utilities :
 
 Python : 3.10  
@@ -25,9 +26,9 @@ ___
 
 ### Description :
 
-Mind games project is a set of 5 mini-games for logic.
-Each game has 3 rounds, the rules of the games are quite simple.
-A rule of each game is available when it is launched.
+Mind games project is a set of 5 mini-games for logic.  
+Each game has 3 rounds. You need pass all of them to win.  
+You should give your answers according to game rules, that are shown at start of each game.
 ___
 
 ### Games :
@@ -39,31 +40,31 @@ ___
 ___
 
 ### Launch examples and gameplay:
-### Even number
+#### Even number
 ```
 brain-even
 ```
 [![asciicast](https://asciinema.org/a/7bqt2o4sSwBW0I3HT4ssxFP1J.svg)](https://asciinema.org/a/7bqt2o4sSwBW0I3HT4ssxFP1J)
 ___
-### Calculator
+#### Calculator
 ```
 brain-calc
 ```
 [![asciicast](https://asciinema.org/a/vOg8pOO5S9kZpWPVqkg5FDJlo.svg)](https://asciinema.org/a/vOg8pOO5S9kZpWPVqkg5FDJlo)
 ___
-### Grand Central Dispatch
+#### Grand Central Dispatch
 ```
 brain-gcd
 ```
 [![asciicast](https://asciinema.org/a/xVHHVKQqvEsbYOmd8biyDVwFt.svg)](https://asciinema.org/a/xVHHVKQqvEsbYOmd8biyDVwFt)
 ___
-### Arithmetic progression
+#### Arithmetic progression
 ```
 brain-progression
 ```
 [![asciicast](https://asciinema.org/a/1Ve6blbdEuYbqwWwYY9PwW0Lh.svg)](https://asciinema.org/a/1Ve6blbdEuYbqwWwYY9PwW0Lh)
 ___
-### Prime number
+#### Prime number
 ```
 brain-prime
 ```
